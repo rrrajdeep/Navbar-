@@ -1,0 +1,238 @@
+/* footer */
+
+.footer{
+    /* display: none; */
+    background: white;
+    box-shadow: inset 0px 6px 5px #EBECFF;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-y: auto;
+    /* transform: translateY(60%); */
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+  }
+  .displayToggle{
+    /* display: block; */
+    transform: translateY(0%);
+  } 
+
+
+
+  /* .close-btn{
+    display: none;
+  } */
+
+  .displayToggleClose{
+    /* transform: translateY(0%); */
+    display: none;
+  }
+
+  /* .close-btn{
+    display: none;
+  } */
+  
+  .close-nav{
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border: 1px solid rgb(132, 132, 243);
+    cursor: pointer;
+    color: rgb(132, 132, 243);
+    border-radius: 10px ;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    transform: translateY(100%);
+    transition: all 0.5s ease;
+  }
+  .close-nav:hover{
+    background-color: rgb(132, 132, 243);
+    color: white;
+  }
+
+
+
+
+
+
+
+  .main-content{
+    padding: 40px;
+    display: flex;
+    justify-content : space-between;
+    align-items : flex-start;
+    padding-left: 100px;
+  }
+  
+  .main-content .dabba{
+    /* flex-basis: 50%; */
+    /* padding: 10px 20px; */
+  
+  }
+  .heading-container{
+    width: 60%;
+    margin-bottom:30px
+  }
+  .heading-container > h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 149.8%;
+    color: #4F516B;
+    margin-bottom: 20px;
+  }
+  
+  .text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.8%;
+    color: #505050;
+  }
+  .text > a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.8%;
+    color: #505050;
+  }
+  
+  
+  .link-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 55px;
+  }
+  
+  .col{
+    display : flex;
+    flex-direction : column;
+    /* justify-content: space-evenly; */
+    row-gap: 10px;
+  }
+  
+  .link-container a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #4F516B;
+    text-decoration: none;
+  }
+  
+  .third-col{
+    display : flex;
+    flex-direction : column;
+    justify-content: space-evenly;
+    row-gap: 10px;
+  }
+  
+  
+  /* Right-side Footer styling */
+  .right_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 43%; 
+  }
+  .ppa-container{
+    display : flex;
+    align-items : center;
+    margin-bottom: 15px;
+  }
+  .pp-name{
+    font-weight: bolder;
+    font-size: 18.7544px;
+    line-height: 22px;
+    color: #444BAB;
+  }
+  
+  .right_part .text{
+    font-size:15px;
+  }
+  
+  .right_part .text-container{
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  .right_part .social{
+    margin: 5px 0 0 0;
+  }
+  .right_part .social a{
+    padding: 0 15px;
+    padding-left: 0px;
+  }
+  
+  .right_part .social a i{
+    height: 50px;
+    width: 50px;
+    background :  #FAFAFB;
+    line-height: 50px;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 12px;
+    color: #8A8A8D;
+  }
+  
+  .chat-btn-container{
+    position: absolute;
+    bottom: 67px;
+    right: 205px;
+  }
+  .chat-btn{
+    background: #3A3F8E;
+    border-radius: 10px 10px 0px 0px;
+    width: 366px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    height: 78px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    padding-left: 36px;
+    border: none;
+  }
+  
+  #chat-btn-text{
+    font-size: 22px;
+    line-height: 26px;
+    color: white;
+  }
+  
+  .chat-btn img{
+    width: 49px;
+  }
+  
+  .horizontal-line{
+    border: 1px solid #848DC7;
+  }
+  
+  .copy-right{
+    display : flex;
+    justify-content:center;
+    align-items:center;
+    height: 65px;
+  }
+  
+  .copy-right p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #66747B;
+  }
+  .pp_Logo {
+    display: flex;
+}
+  
+  .pp_Logo img {
+    /* border: 2px solid blue; */
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}

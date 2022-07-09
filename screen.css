@@ -1,0 +1,51 @@
+@media screen and (min-width: 1015px) and (max-width: 1175px){
+    nav .logo-contents h4{
+        font-size: 1rem;
+    }
+    nav .nav_links a{
+        font-size: 1rem;
+    }
+    nav .header_buttons button{
+        font-size: 0.8rem;
+    }
+    .header_buttons button{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 865px) and (max-width: 1015px){
+    nav .logo-contents h4{
+        font-size: 1rem;
+    }
+    nav .nav_links a{
+        font-size: 0.8rem;
+    }
+    nav .header_buttons button{
+        font-size: 0.8rem;
+    }
+    .header_buttons button{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 365px) and (max-width: 865px){
+    nav .nav_links{
+        display: none;
+    }
+    nav .header_buttons {
+        display: none;
+    }
+
+    nav .logo-contents h4{
+        font-size: 1rem;
+    }
+    nav .logo-contents{
+        /* border: 2px solid red; */
+        width: 60%;
+    }
+    nav .ham-icon{
+        display: block;
+    }
+
+}
+
